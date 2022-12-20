@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-    background-color: #fffd74;
+    background-color: #fffea8;
     font-family: 'Righteous', cursive;
     margin: 0;
     padding: 0;
@@ -16,42 +16,53 @@ body {
     
 }
 
-.main{
+main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-/* #text-input {
+
+  #text-input, #output-area{
+    width: 35%;
+    height: 20vh;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin:1rem 0rem ;
+    background-color:rgb(243, 240, 240);
+  }
+
+
+  #btn-translate{
+    background-color: brown;
+    color: beige;
+    font-family: 'Righteous', cursive;
+    font-size: 1rem;
+    padding: 0.3rem 1.3rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    
+  }
+  
+  #btn-translate:hover{
+    cursor: pointer;
+    background-color:beige;
+    color: #561820;
+  }
+  
+  
+  footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    height: 15vh;
-    width: 60%;
-    margin: 1rem;
-    padding: 1rem;
-} */
-
-#output-area {
-    background-color: aliceblue;
-    border: 1px solid black;
-    height: 15vh;
-    width: 60%;
-    margin: 1rem;
-    padding: 1rem;
-
-}
-
-#footer-area {
+    text-align: center;
+    margin-top: 2%;
+    padding: 2% 25% 2% 25%;
     background-color: #561820;
     color: antiquewhite;
-    height: 16vh;
-    text-align: center;
-    padding: 2.89rem 5rem;
-}
-
-#footer-area > h2 {
-    margin-bottom: 2rem;
-}
+    
+  }

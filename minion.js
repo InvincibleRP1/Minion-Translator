@@ -4,7 +4,7 @@ let inputValue = document.querySelector("#text-input");
 
 let outputValue = document.querySelector("#output-area");
 
-let serverUrl = "https://api.funtranslations.com/translate/yoda.json";
+let serverUrl = "https://api.funtranslations.com/translate/minion.json";
 
 buttonTranslate.addEventListener("click", eventHandler)
 
