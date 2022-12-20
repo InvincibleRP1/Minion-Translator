@@ -2,6 +2,11 @@
 
 An application that translates an English Sentence to Minionish - Minion's offical language.
 
+# Screenshot
+
+![image](https://user-images.githubusercontent.com/67526478/208762679-5d5bd017-f309-4750-995b-c048232cd9af.png)
+
+
 # Tech Stack Used
 
 HTML, CSS, JavaScript.
